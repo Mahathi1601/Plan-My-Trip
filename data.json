@@ -1,0 +1,68 @@
+{
+  "Srinagar": {
+    "mustVisit": ["Dal Lake Shikara", "Shalimar Bagh", "Shankaracharya Temple", "Hazratbal Shrine", "Pari Mahal", "Nishat Bagh", "Jamia Masjid", "Tulip Garden"],
+    "attractions": [
+      { "name": "Dal Lake Shikara", "desc": "Iconic boat ride", "uniqueWhy": "Only place with floating post offices and markets", "bestTime": "Early Morning", "insiderTip": "Haggle for the ride, best photos at dawn", "duration": "2 hrs", "type": "outdoor", "cost": 500 },
+      { "name": "Shalimar Bagh", "desc": "Mughal imperial garden", "uniqueWhy": "Built by Jahangir in 1619, supreme Persian layout", "bestTime": "Late Afternoon", "insiderTip": "Visit during autumn for Chinar colors", "duration": "1.5 hrs", "type": "outdoor", "cost": 50 },
+      { "name": "Shankaracharya Temple", "desc": "Ancient hilltop temple", "uniqueWhy": "Dates back to 200 BC, offers 360 views of Srinagar", "bestTime": "Morning", "insiderTip": "No cameras allowed, steep climb of 240 steps", "duration": "2 hrs", "type": "indoor", "cost": 0 },
+      { "name": "Hazratbal Shrine", "desc": "Sacred Muslim shrine", "uniqueWhy": "Contains a relic believed to be hair of Prophet Muhammad", "bestTime": "Anytime", "insiderTip": "Dress modestly, women need head cover", "duration": "1 hr", "type": "indoor", "cost": 0 },
+      { "name": "Pari Mahal", "desc": "Palace of Fairies", "uniqueWhy": "Seven-terraced garden with Islamic architecture", "bestTime": "Sunset", "insiderTip": "Less crowded than other Mughal gardens", "duration": "1 hr", "type": "outdoor", "cost": 50 },
+      { "name": "Nishat Bagh", "desc": "Garden of Joy", "uniqueWhy": "Largest Mughal garden in Kashmir valley", "bestTime": "Morning", "insiderTip": "Great for family picnics", "duration": "2 hrs", "type": "outdoor", "cost": 50 },
+      { "name": "Jamia Masjid", "desc": "Historic wooden mosque", "uniqueWhy": "Unique Indo-Saracenic architecture with 378 wooden pillars", "bestTime": "Afternoon", "insiderTip": "Quiet and peaceful outside prayer times", "duration": "1 hr", "type": "indoor", "cost": 0 },
+      { "name": "Tulip Garden", "desc": "Largest tulip garden in Asia", "uniqueWhy": "Over 1.5 million tulips (seasonal)", "bestTime": "Morning", "insiderTip": "Only open April-May", "duration": "2 hrs", "type": "outdoor", "cost": 100 }
+    ],
+    "evenings": [
+      { "name": "Shikara Ride at Sunset + Floating Market Snack", "type": "nature", "desc": "Glide on Dal Lake as the sun sets, buying local snacks from passing boats.", "whyToday": "Mondays are perfect for this as weekend tourist crowds have left, giving you a serene experience.", "contingency": "If it rains, relax in a houseboat living room with fresh Kahwa." },
+      { "name": "Mughal Garden Night Illumination Walk", "type": "culture", "desc": "Walk through the beautifully lit terraced gardens.", "whyToday": "Tuesdays often feature special illumination and fewer crowds.", "contingency": "Visit the local indoor artisan markets for Pashmina shopping." },
+      { "name": "Old City Street Food Crawl", "type": "food", "desc": "Taste authentic Kashmiri street food like Tujje (barbecue).", "whyToday": "Wednesdays have the freshest meat deliveries in the old city.", "contingency": "Dine at Ahdoos, an iconic heritage restaurant." },
+      { "name": "Live Folk Music at a Heritage Cafe", "type": "music", "desc": "Sip Kahwa while listening to traditional Kashmiri Rabab music.", "whyToday": "Thursdays are traditional Sufi music nights in many local cafes.", "contingency": "The performance is indoors, so it runs rain or shine." },
+      { "name": "Lal Chowk Evening Shopping", "type": "shopping", "desc": "Explore the bustling city center for souvenirs.", "whyToday": "Friday evenings are vibrant with locals shopping for the weekend.", "contingency": "Head to the Government Arts Emporium which is sheltered." },
+      { "name": "Sunset from Hari Parbat Fort", "type": "scenic", "desc": "Watch the city light up from this ancient fort.", "whyToday": "Saturdays offer the best festive vibe viewing from above.", "contingency": "Check out the indoor museum exhibits." },
+      { "name": "Wazwan Feast at a Local Home", "type": "food", "desc": "Experience the massive 36-course traditional feast.", "whyToday": "Sundays are reserved for massive family feasts in Kashmiri culture.", "contingency": "Feast is entirely indoors." }
+    ]
+  },
+  "Jaipur": {
+    "mustVisit": ["Amber Fort", "Hawa Mahal", "City Palace", "Jantar Mantar", "Albert Hall Museum", "Nahargarh Fort", "Patrika Gate", "Galtaji Temple"],
+    "attractions": [
+      { "name": "Amber Fort", "desc": "Majestic hilltop fort", "uniqueWhy": "Blend of Hindu and Rajput elements with mirror palace", "bestTime": "Early Morning", "insiderTip": "Go at 8 AM to beat the elephants and heat", "duration": "3 hrs", "type": "outdoor", "cost": 200 },
+      { "name": "Hawa Mahal", "desc": "Palace of Winds", "uniqueWhy": "953 small windows designed for royal women to observe streets", "bestTime": "Morning", "insiderTip": "Best photos are from the cafe opposite the road", "duration": "1 hr", "type": "indoor", "cost": 50 },
+      { "name": "City Palace", "desc": "Royal residence", "uniqueWhy": "Current royal family still resides in one part", "bestTime": "Afternoon", "insiderTip": "Buy the composite ticket for better value", "duration": "2 hrs", "type": "indoor", "cost": 300 },
+      { "name": "Jantar Mantar", "desc": "Ancient observatory", "uniqueWhy": "Features the world's largest stone sundial", "bestTime": "Mid-day", "insiderTip": "Hire a guide to understand the instruments", "duration": "1.5 hrs", "type": "outdoor", "cost": 50 },
+      { "name": "Albert Hall Museum", "desc": "State museum", "uniqueWhy": "Stunning Indo-Saracenic architecture holding an Egyptian mummy", "bestTime": "Evening", "insiderTip": "Looks beautiful when lit up at night", "duration": "2 hrs", "type": "indoor", "cost": 40 },
+      { "name": "Nahargarh Fort", "desc": "Fort on the edge of Aravalli hills", "uniqueWhy": "Offers the best panoramic views of Jaipur city", "bestTime": "Late Afternoon", "insiderTip": "Stay for sunset at the Padao restaurant", "duration": "2 hrs", "type": "outdoor", "cost": 50 },
+      { "name": "Patrika Gate", "desc": "Vibrant hand-painted gate", "uniqueWhy": "Showcases architectural styles from all over Rajasthan", "bestTime": "Morning", "insiderTip": "Arrive early for empty photo backgrounds", "duration": "1 hr", "type": "outdoor", "cost": 0 },
+      { "name": "Galtaji Temple", "desc": "Monkey Temple", "uniqueWhy": "Built in a narrow crevice with natural fresh water springs", "bestTime": "Late Afternoon", "insiderTip": "Beware of aggressive monkeys, do not carry food", "duration": "1.5 hrs", "type": "outdoor", "cost": 0 }
+    ],
+    "evenings": [
+      { "name": "Rooftop Dinner with Nahargarh Fort View", "type": "food", "desc": "Dine at a premium rooftop overlooking the lit-up fort.", "whyToday": "Mondays offer quieter, more intimate dining experiences before the week gets busy.", "contingency": "All recommended rooftops have indoor AC seating." },
+      { "name": "Night Bazaar Shopping at Johari Bazaar", "type": "shopping", "desc": "Shop for jewelry and textiles in the vibrant night market.", "whyToday": "Tuesdays are when local artisans display their new weekly stock.", "contingency": "Enjoy chai at a 100-year-old covered stall." },
+      { "name": "Open-air Cultural Performance at Chokhi Dhani", "type": "culture", "desc": "Immersive Rajasthani village experience with dances and food.", "whyToday": "Wednesdays feature mid-week special fire dance performances.", "contingency": "Indoor dining halls are available if it rains." },
+      { "name": "Light & Sound Show at Amber Fort", "type": "entertainment", "desc": "Learn the history of Rajputs through an epic laser show.", "whyToday": "Thursdays have less crowds for the English narration slot.", "contingency": "Watch a Bollywood movie at the iconic Raj Mandir Cinema instead." },
+      { "name": "Lassi and Street Food at MI Road", "type": "food", "desc": "Taste the famous Kullad Lassi and Pyaz Kachori.", "whyToday": "Fridays have the freshest ingredients prepped for the weekend rush.", "contingency": "Eat inside the iconic LMB restaurant." },
+      { "name": "Jal Mahal Night View & Walk", "type": "relax", "desc": "Walk along the promenade of the Water Palace.", "whyToday": "Saturdays have local street performers playing the Ravanahatha here.", "contingency": "Take shelter in the nearby artisan shops." },
+      { "name": "Puppet Show & Traditional Thali", "type": "culture", "desc": "Watch a Kathputli (puppet) show while eating a massive Thali.", "whyToday": "Sundays are family days, bringing the best performers to the city.", "contingency": "The show and dinner are fully indoors." }
+    ]
+  },
+  "Manali": {
+    "mustVisit": ["Hadimba Temple", "Solang Valley", "Rohtang Pass", "Vashisht Hot Springs", "Jogini Waterfall Trek", "Manu Temple", "Old Manali", "Naggar Castle"],
+    "attractions": [
+        { "name": "Hadimba Temple", "desc": "Ancient wooden temple", "uniqueWhy": "Built in 1553, deep in cedar forest", "bestTime": "Early Morning", "insiderTip": "Go before 9 AM to avoid crowds", "duration": "1 hr", "type": "indoor", "cost": 0 },
+        { "name": "Solang Valley", "desc": "Adventure sports hub", "uniqueWhy": "Premier hub for paragliding and zorbing", "bestTime": "Morning", "insiderTip": "Book activities directly with operators", "duration": "3-4 hrs", "type": "outdoor", "cost": 500 },
+        { "name": "Rohtang Pass", "desc": "High mountain pass", "uniqueWhy": "Year-round snow at 13,000 ft", "bestTime": "Very Early Morning", "insiderTip": "Requires a permit, book 2 days prior", "duration": "5 hrs", "type": "outdoor", "cost": 1000 },
+        { "name": "Vashisht Hot Springs", "desc": "Natural thermal springs", "uniqueWhy": "Medicinal sulfur water flowing naturally", "bestTime": "Late Afternoon", "insiderTip": "Carry your own towel", "duration": "1 hr", "type": "indoor", "cost": 0 },
+        { "name": "Jogini Waterfall Trek", "desc": "Pristine waterfall hike", "uniqueWhy": "Scenic trek through apple orchards", "bestTime": "Morning", "insiderTip": "Wear trekking shoes, path gets slippery", "duration": "3 hrs", "type": "outdoor", "cost": 0 },
+        { "name": "Manu Temple", "desc": "Historic temple", "uniqueWhy": "Only temple in India dedicated to Sage Manu", "bestTime": "Afternoon", "insiderTip": "Steep climb, take a local auto", "duration": "1 hr", "type": "indoor", "cost": 0 },
+        { "name": "Old Manali", "desc": "Bohemian village", "uniqueWhy": "Israeli cafes and rustic charm away from the city", "bestTime": "Late Afternoon", "insiderTip": "Great for souvenir shopping", "duration": "2 hrs", "type": "outdoor", "cost": 0 },
+        { "name": "Naggar Castle", "desc": "Historic timber-bonded castle", "uniqueWhy": "Architecture from the 1400s surviving massive earthquakes", "bestTime": "Afternoon", "insiderTip": "Visit the Roerich Art Gallery nearby", "duration": "2 hrs", "type": "indoor", "cost": 30 }
+    ],
+    "evenings": [
+        { "name": "Old Manali Live Music & Cafe Crawl", "type": "music", "desc": "Experience the vibrant hippie culture in Old Manali cafes.", "whyToday": "Mondays feature local indie artists and open mic nights.", "contingency": "Cafes are indoor and cozy." },
+        { "name": "Mall Road Stroll & Trout Dinner", "type": "food", "desc": "Walk the bustling Mall Road and dine on local river trout.", "whyToday": "Tuesdays have fresh fish deliveries from the local hatcheries.", "contingency": "Grab a hot chocolate at an indoor bakery." },
+        { "name": "Sunset at Dhungri Village", "type": "nature", "desc": "A quiet evening walk near the cedar forests of Dhungri.", "whyToday": "Mid-week Wednesdays are incredibly peaceful here.", "contingency": "Visit the indoor Tibetan monastery instead." },
+        { "name": "Himachali Dham Feast", "type": "culture", "desc": "Enjoy a traditional communal feast seated on the floor.", "whyToday": "Thursdays are considered auspicious for this traditional meal.", "contingency": "The feast is fully covered." },
+        { "name": "Star Gazing at Solang", "type": "adventure", "desc": "Drive up towards Solang for clear night skies.", "whyToday": "Friday nights have the least light pollution due to weekend power curfews in the upper hills.", "contingency": "Visit a local pub with live sports screening." },
+        { "name": "Night Market Shopping", "type": "shopping", "desc": "Buy hand-woven Kullu shawls and winter wear.", "whyToday": "Saturdays see the maximum number of local artisan stalls.", "contingency": "Shop at the enclosed Himcoop emporium." },
+        { "name": "Riverside Bonfire at Beas", "type": "relax", "desc": "Relax by the Beas river with a bonfire and hot cocoa.", "whyToday": "Sundays are family days, perfect for a relaxed riverside evening.", "contingency": "Enjoy a traditional indoor fireplace dinner." }
+    ]
+  }
+}
