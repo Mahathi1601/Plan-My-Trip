@@ -3,14 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Planner - AI Travel Planner</title>
-    <!-- Fonts -->
+    <title>Travel Planner</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
     <style>
         :root {
             --bg-color: #F5F0E8;
@@ -47,12 +44,10 @@
             padding: 3rem 1.5rem;
         }
 
-        /* Typography */
         h1, h2, h3, h4 { color: var(--text-main); font-weight: 600; }
         h1 { font-size: 2.5rem; text-align: center; margin-bottom: 0.5rem; letter-spacing: -0.5px; }
         .subtitle { text-align: center; color: var(--text-light); margin-bottom: 3rem; font-size: 1.1rem; }
 
-        /* Cards */
         .card {
             background: var(--card-bg);
             border: 1px solid var(--border-color);
@@ -64,7 +59,6 @@
         }
         .card:hover { box-shadow: var(--shadow-hover); transform: translateY(-2px); }
 
-        /* Form */
         .form-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -91,7 +85,6 @@
         }
         select:focus, input:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(184, 212, 227, 0.3); }
 
-        /* Buttons */
         .btn {
             display: inline-flex;
             align-items: center;
@@ -119,7 +112,6 @@
         .btn-secondary { background: var(--card-bg); border: 2px solid var(--border-color); }
         .btn-secondary:hover { background: var(--bg-color); border-color: var(--text-light); }
 
-        /* Loading */
         .loader-container {
             display: flex;
             flex-direction: column;
@@ -284,7 +276,6 @@
         }
     </style>
     
-    <!-- React & ReactDOM -->
     <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
     <!-- Babel -->
@@ -2941,7 +2932,12 @@
                     }));
                 }
             }
-            return [];
+            return [
+                { name: "Local Market", desc: "Explore local handicrafts", uniqueWhy: "Feel the local vibe", bestTime: "Evening", type: "outdoor", cost: 0, duration: "2 hrs" },
+                { name: "City Viewpoint", desc: "Panoramic views", uniqueWhy: "Great for photos", bestTime: "Morning", type: "outdoor", cost: 0, duration: "1 hr" },
+                { name: "Heritage Museum", desc: "Learn local history", uniqueWhy: "Cultural deep dive", bestTime: "Afternoon", type: "indoor", cost: 100, duration: "2 hrs" },
+                { name: "Main Plaza Walk", desc: "Heart of the city", uniqueWhy: "People watching", bestTime: "Evening", type: "outdoor", cost: 0, duration: "2 hrs" }
+            ];
         };
 
         const getBestSeasons = (name) => {
